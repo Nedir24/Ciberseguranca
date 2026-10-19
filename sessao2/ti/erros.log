@@ -1,0 +1,21 @@
+2026-10-12 08:00 INFO servidor iniciado
+2026-10-12 08:02 INFO serviço ssh ativo na porta 22
+2026-10-12 08:05 ERRO falha de conexão à base de dados
+2026-10-12 08:06 WARN nova tentativa após erro de rede
+2026-10-12 08:10 INFO backup diário iniciado
+2026-10-12 08:12 WARN disco a 85% de capacidade
+2026-10-12 08:15 ERRO timeout na API REST após 30s
+2026-10-12 08:20 INFO backup diário concluído
+2026-10-12 08:25 ERRO autenticação falhou para o utilizador admin
+2026-10-12 08:26 ERRO autenticação falhou para o utilizador admin
+2026-10-12 08:27 ERRO autenticação falhou para o utilizador root
+2026-10-12 08:30 INFO utilizador alice iniciou sessão
+2026-10-12 08:31 WARN certificado TLS expira em 10 dias
+2026-10-12 08:40 INFO relatório mensal gerado
+2026-10-12 08:45 WARN disco a 91% de capacidade
+2026-10-12 08:50 ERRO serviço de email não responde
+2026-10-12 08:55 INFO serviço de email reiniciado
+2026-10-12 09:00 WARN registo de erro ignorado pelo monitor
+2026-10-12 09:05 INFO utilizador bruno iniciou sessão
+2026-10-12 09:10 INFO servidor estável
+2026-10-12 09:15 ERRO teste de monitorizacao

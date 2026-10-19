@@ -1,0 +1,10 @@
+# Configuração do servidor de aplicações CVTECH Lda.
+APP_NAME=portal-cvtech
+APP_PORT=8080
+DB_HOST=10.0.0.5
+DB_USER=portal
+DB_PASSWORD=CvTech2026!
+# Política: a password deve ter pelo menos 12 caracteres
+SMTP_HOST=mail.cvtech.cv
+smtp_password=Email#2026
+LOG_LEVEL=info
