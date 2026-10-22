@@ -1,0 +1,45 @@
+Nota do administrador anterior.
+Missão 1 concluída — chave: C1-9FB7F5
+2026-10-26 11:07:42 CRITICO integridade do arquivo verificada — chave: C2-E32AF4
+Relatório confidencial de RH (dados fictícios)
+Missão 3 concluída — chave: C3-85471C
+Comando usado: ls -laR arquivo / cat ~/desafio_final/arquivo/2026/q2/ti/.nota_do_administrador
+Nota do administrador anterior.
+Missão 1 concluída — chave: C1-9FB7F5
+--- Missão 2 ---
+Total de linhas: 301 (Comando: wc -l ~/desafio_final/logs/servidor.log)
+Linhas de ERRO: 42 (Comando: grep ERRO ~/desafio_final/logs/servidor.log | wc -l)
+2026-10-26 11:07:42 CRITICO integridade do arquivo verificada — chave: C2-E32AF4
+2026-10-26 11:07:42 CRITICO integridade do arquivo verificada — chave: C2-E32AF4
+--- Missão 3 ---
+Comando usado: chmod 640 ~/desafio_final/docs/relatorio_rh.txt
+Relatório confidencial de RH (dados fictícios)
+Missão 3 concluída — chave: C3-85471C
+--- Missao 4 ---
+Comandos usados: sudo groupadd auditores && sudo useradd -m -s /bin/bash -g auditores auditor
+Resultado do id auditor:
+uid=1004(auditor) gid=1007(auditores) grupos=1007(auditores)
+--- Missao 5 ---
+Processo: NOME_DO_PROCESSO | PID: PID_ENCONTRADO | CPU: %CPU
+Comando usado: kill PID_ENCONTRADO
+--- Missao 5 ---
+Processo: indexador.sh | PID: 39138 | CPU: 79%
+Comando usado: kill 39138
+Indexador terminado corretamente — chave: C5-37880F
+--- Missao 6 ---
+Comandos usados: openssl enc -d -aes-256-cbc -salt -pbkdf2 -in ~/desafio_final/cofre/cofre.tar.gz.enc -out ~/desafio_final/cofre/cofre.tar.gz && tar -zxvf ~/desafio_final/cofre/cofre.tar.gz -C ~/desafio_final/cofre/restaurado/
+--- Missao 6 ---
+Comando usado: openssl enc -d -aes-256-cbc -salt -pbkdf2 -in cofre.tar.gz.enc -out cofre.tar.gz && tar -zxvf cofre.tar.gz -C restaurado/
+Chave do cofre: C6-8A3F19
+--- Missao 6 ---
+Comando usado: openssl enc -d -aes-256-cbc -salt -pbkdf2 -in cofre.tar.gz.enc -out cofre.tar.gz
+Chave do cofre: C6-8A3F19
+--- Missao 5 ---
+Chave do indexador: C5-INDEXADOR-OK
+--- Missao 6 ---
+Comando usado: openssl enc -d -aes-256-cbc -salt -pbkdf2 -in cofre.tar.gz.enc -out cofre.tar.gz
+Chave do cofre: C6-8A3F19
+Chave do cofre: C6-8A3F19
+--- Missao 6 ---
+C6-8A3F19
+C6-60F1CA
