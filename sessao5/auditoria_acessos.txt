@@ -1,0 +1,22 @@
+===== AUDITORIA DE ACESSOS CVTECH Lda. =====
+Data: dom 25 out 2026 00:19:32 WEST
+--- PASTAS DEPARTAMENTAIS ---
+total 16
+drwxrwx--- 2 root  financas 4096 out 24 23:49 financas
+drwxr-xr-x 2 root  root     4096 out 24 23:49 publico
+drwxrwx--- 2 root  rh       4096 out 24 23:59 rh
+drwxrwx--- 2 bruno ti       4096 out 24 23:49 ti
+total 4
+-rw-r----- 1 alice rh 40 out 24 23:59 confidencial.txt
+--- ESTADO DAS CONTAS ---
+alice P 2026-10-20 0 99999 7 -1
+bruno P 2026-10-20 0 99999 7 -1
+carla P 1970-01-01 0 90 7 30
+--- POLÍTICA DA CARLA ---
+Última alteração da palavra-passe					: a palavra-passe tem de ser alterada
+A palavra-passe caduca em					: a palavra-passe tem de ser alterada
+Palavra-passe inactiva					: a palavra-passe tem de ser alterada
+A conta caduca						: nunca
+Número mínimo de dias entre alterações da palavra-passe		: 0
+Número máximo de dias entre alterações de palavra-passe		: 90
+Número de dias de aviso antes da palavra-passe caducar	: 7
