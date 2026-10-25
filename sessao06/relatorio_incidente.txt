@@ -1,0 +1,18 @@
+=== RELATÓRIO DE INCIDENTE - CVTECH Lda. ===
+Data: dom 25 out 2026 01:37:54 WET
+--- CRONOLOGIA ---
+ INFO monitor iniciado
+ ERRO cvtech-sync não responde
+ INFO CPU normalizada - cvtech-sync.sh terminado
+Avisos registados: 146
+--- PROCESSOS cvtech AINDA ATIVOS ---
+kendrick    9846  0.2  0.1   7500  3856 pts/0    S    01:05   0:04 /bin/bash /home/kendrick/incidente/cvtech-monitor.sh
+kendrick   19189  0.2  0.1   7500  3912 pts/0    S    01:22   0:02 /bin/bash /home/kendrick/incidente/cvtech-monitor.sh
+kendrick   26538  0.0  0.6 264928 14104 pts/0    T    01:34   0:00 journalctl -t cvtech -f
+--- TOP 5 DE CPU APÓS A INTERVENÇÃO ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kendrick   28479  100  0.2   9648  4600 pts/0    R+   01:37   0:00 ps aux --sort=-%cpu
+kendrick    2822 39.4 27.2 3021620 551180 ?      Rl   01:52  18:03 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40495 -prefMapHandle 1:272106 -jsInitHandle 2:242716 -parentBuildID 20260217105505 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cd093d77-e4d4-43ec-8013-b4888d9b9626} -parentPid 1900 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 5 tab
+kendrick    1900 26.3 20.6 11577256 416624 ?     Sl   01:51  12:17 /usr/lib/firefox-esr/firefox-esr
+root         643 15.4  6.6 441096 133444 tty7    Ssl+ 01:50   7:23 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+kendrick    1259  3.4  1.8 301612 37876 ?        Sl   01:50   1:38 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 25165836 cpugraph Gráfico da CPU Representação gráfica da carga da CPU
